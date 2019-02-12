@@ -1,8 +1,34 @@
-h1 {
-    color:rgb(182, 20, 214);
-    text-align: center;
-}
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(34, 66, 211);
 
-body {
-    background-color: rgba(244, 198, 255, 0.788)
-}
+  }
+/*
+ * NAVIGATION BAR
+ */
+  li.header-link {
+    float: left;
+  }
+
+  li a.header-content {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;     /*TODO: find out why changing this to %s breaks them*/
+    text-decoration: none;
+  }
+
+  li a.header-content:hover {
+    background-color: hotpink;
+  }
+
+  /*
+   * END NAVIGATION BAR
+   */
