@@ -7,7 +7,7 @@
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: hotpink;
+	background-color: blue;
 	z-index: 10;
 }
 /*
@@ -26,14 +26,14 @@ li a.header-content {
 }
 
 li a.header-content:hover {
-	background-color: deeppink;
+	background-color: darkblue;
 }
 
 /*
 * END NAVIGATION BAR
 */
 body {
-	background-color: honeydew ;
+	background-color: white ;
 	margin: 0;
 	padding: 0;
 	z-index: 0;
@@ -42,7 +42,7 @@ body {
 }
 
 p {
-	color: indigo;
+	color: midnightblue;
 	font-size: 110%;
 	text-align: center;
 	text-align: justify;
@@ -51,13 +51,13 @@ p {
 h1 {
 	text-align: center;
 	font-size: 500%;
-	color: lightpink;
+	color: royalblue;
 }
 
 h2 {
 	text-align: center;
 	font-size: 400%;
-	color: lightpink;
+	color: royalblue ;
 }
 
 div {
