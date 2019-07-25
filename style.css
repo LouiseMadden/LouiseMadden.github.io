@@ -67,9 +67,14 @@ div {
 
 #AboutMe {
 	margin-top: 5%;
+	text-align:justify;
 }
 
 #photo1 {
-	background-color: rgba(155, 243, 253, 0.527);
+	background-color: rgba(193, 246, 252, 0.74);
 	margin-right: 50%;
+}
+
+.Skills {
+	column-count: 5;
 }
