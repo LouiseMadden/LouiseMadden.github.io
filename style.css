@@ -65,16 +65,15 @@ div {
 	margin-right: 10%;
 }
 
-#AboutMe {
-	margin-top: 5%;
-	text-align:justify;
+.About {
+	column-count: 2;
 }
 
-#photo1 {
-	background-color: rgba(193, 246, 252, 0.74);
-	margin-right: 50%;
+#AboutMe {
+	margin-top: 5%;
 }
 
 .Skills {
-	column-count: 5;
+	column-count: 2;
+	
 }
