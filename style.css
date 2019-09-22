@@ -84,12 +84,25 @@ div {
 	margin-top: 5%;
 }
 
-.Skills {
+#Skills {
 	display: flex;
 	flex-wrap: wrap;
 	overflow: hidden;
 	position: relative;
 }
+
+#Interests {
+	display: flex;
+	flex-wrap: wrap;
+	overflow: hidden;
+	position: relative;
+}
+
+div.interest-box {
+	display: inline-block;
+	width: 30%;
+}
+
 div.skill-box {
 	display: inline-block;
 	width: 30%;
@@ -112,6 +125,9 @@ i.favi-int {
 i.favi-link {
 	font-size: 500%;
 	color:#B399DD;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
 }
 
 i.favi-link:hover {
